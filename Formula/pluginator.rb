@@ -1,5 +1,5 @@
 class Pluginator < Formula
-  desc "Minecraft server plugin manager with multi-source updates"
+  desc "A sophisticated Minecraft server plugin manager with multi-source update checking, sync/backup workflows, and a modern terminal UI"
   homepage "https://github.com/NindroidA/pluginator"
   version "2.3.0"
   license :cannot_represent
