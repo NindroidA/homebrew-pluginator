@@ -1,28 +1,28 @@
 class Pluginator < Formula
   desc "A sophisticated Minecraft server plugin manager with multi-source update checking, sync/backup workflows, and a modern terminal UI"
   homepage "https://github.com/NindroidA/pluginator"
-  version "2.4.0"
+  version "2.4.1"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.0/pluginator-2.4.0-darwin-arm64.tar.gz"
-      sha256 "ff5a942026f24e29efdc3f6df9e88a33d6b3c0320cfdfe7925b19b45fdc051a1"
+      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.1/pluginator-2.4.1-darwin-arm64.tar.gz"
+      sha256 "4dd02de578ce5ef0e4f2a3510464908ec11c2acb6ab72eb50a24a700f03bbc87"
     end
     on_intel do
-      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.0/pluginator-2.4.0-darwin-x64.tar.gz"
-      sha256 "94b3877abffeef27e3cfee2758ae40590bb823633634fa026b17e8383dd25cde"
+      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.1/pluginator-2.4.1-darwin-x64.tar.gz"
+      sha256 "7c4e69a40709629dd61214c5ba2c2fa551e314915b824c6d8a6907065911ab92"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.0/pluginator-2.4.0-linux-arm64.tar.gz"
-      sha256 "c046e5447594793c2272c2e8c7c88f1a8b0c1af975a967ea43f9a99204ea28c4"
+      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.1/pluginator-2.4.1-linux-arm64.tar.gz"
+      sha256 "8c6ef0faa2a2b503e27048dcf86745068488fa0cfc2afc3a5a07daaf81bd35b8"
     end
     on_intel do
-      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.0/pluginator-2.4.0-linux-x64.tar.gz"
-      sha256 "c6957d5e2152698bec8d3e5c88a59b4069e5d2df5445440e865d02c6c4f4f534"
+      url "https://github.com/NindroidA/pluginator/releases/download/v2.4.1/pluginator-2.4.1-linux-x64.tar.gz"
+      sha256 "2d86439c4b8f6ea53dd85fb0831bf893524dd607d83a55408628cd9ba989d9ef"
     end
   end
 
