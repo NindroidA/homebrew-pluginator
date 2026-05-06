@@ -7,22 +7,22 @@ class Pluginator < Formula
   on_macos do
     on_arm do
       url "https://github.com/NindroidA/pluginator/releases/download/v2.12.3/pluginator-2.12.3-darwin-arm64.tar.gz"
-      sha256 "8aa38bbe02cd783e85bb33d6257cf6dee8c1b00875846874b540ee5ac3a0b5ad"
+      sha256 "38c640ae8dcc7d1600676fade77971ba8a09bb8c0fafac9969debff7c7feaf95"
     end
     on_intel do
       url "https://github.com/NindroidA/pluginator/releases/download/v2.12.3/pluginator-2.12.3-darwin-x64.tar.gz"
-      sha256 "d867bd9e5bd035e7ce5cab0899fddab456a677d4efabba7d2b2e55ea9c06298f"
+      sha256 "e9288445f004e716ad1f592b1193dbaad59cc894743d7493ba375b11ab82408c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/NindroidA/pluginator/releases/download/v2.12.3/pluginator-2.12.3-linux-arm64.tar.gz"
-      sha256 "13a3c1b8f84a92e136483bb48c385638ac84aa26858a886f22772dfbe0421429"
+      sha256 "f731fb947f76671df75617d562bf5bf77e235f30ca3e8215c8a65a3e7f86db8d"
     end
     on_intel do
       url "https://github.com/NindroidA/pluginator/releases/download/v2.12.3/pluginator-2.12.3-linux-x64.tar.gz"
-      sha256 "ff9ee1c6ee949eb399f018fe8d3c0c68de58b34aa009ad19d1065c548d816b23"
+      sha256 "a382dfa3398abb5a1294abf0245b9c2b9ea8833504a09e16d3ca1ba3a2d475af"
     end
   end
 
